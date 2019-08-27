@@ -11,9 +11,9 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/weather"
+        app:srcCompat="@drawable/weathertwo"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -29,10 +29,11 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
+        android:layout_marginRight="40dp"
         android:alpha="0.7"
         android:background="#777"
         android:ems="10"
